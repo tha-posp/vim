@@ -1,1 +1,3 @@
+git clone https://github.com/tha-posp/vim.git
+
 ln -s ~/.vim/vimrc ~/.vimrc
