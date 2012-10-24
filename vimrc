@@ -3,7 +3,7 @@ call pathogen#infect()
 filetype plugin on
 syntax enable		" Enable syntax
 set hlsearch " Highlight searches
-set background=light
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized	" Set colorscheme
 set ls=2 " List filename at bottem of screen
@@ -21,7 +21,8 @@ set shiftwidth=3
 set expandtab
 
 let mapleader = "," " Change default leader key
-let g:EasyMotion_leader_key = '<Leader>'
+"let g:EasyMotion_leader_key = '<Leader>'
+map <Leader>e :NERDTreeToggle<CR> " Shortcut for NERDTreeToggle
 
 " define local paths for force.com plugin
 if has('gui') " do not use on headless machines
