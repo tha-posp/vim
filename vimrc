@@ -1,6 +1,6 @@
 call pathogen#infect()
 
-filetype plugin on
+filetype indent plugin on
 syntax enable		" Enable syntax
 set hlsearch " Highlight searches
 set background=dark
