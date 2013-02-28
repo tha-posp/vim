@@ -1,11 +1,13 @@
 call pathogen#infect()
+call pathogen#helptags()
 
 filetype indent plugin on
 syntax enable		" Enable syntax
 set hlsearch " Highlight searches
+set nocompatible
 
 " Solarized Colorscheme
-set background=dark
+set background=light
 let g:solarized_termcolors=256
 let g:solarized_contrast="normal"    "default value is normal
 colorscheme solarized	" Set colorscheme
@@ -21,8 +23,8 @@ set cursorline		" Highlight currentline
 "hi cursorline term=bold cterm=bold guibg=Grey40
 
 " Change Tab to Spaces
-set tabstop=3
-set shiftwidth=3
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 let mapleader = "," " Change default leader key
@@ -54,7 +56,7 @@ if has('gui') " do not use on headless machines
       " path to folder with *.property files which contain SFDC orgs access
       " details
       if !exists("g:apex_properties_folder")
-         let g:apex_properties_folder="/media/truecrypt1"
+         let g:apex_properties_folder="/Users/thai/.ant/properties"
       endif
    elseif has("win32")
       if !exists("g:apex_backup_folder")
