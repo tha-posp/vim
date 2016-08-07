@@ -12,7 +12,7 @@ let g:solarized_termcolors=256
 let g:solarized_contrast="normal"    "default value is normal
 colorscheme solarized	" Set colorscheme
 
-set ls=2 " List filename at bottem of screen
+set ls=2 " List filename at bottom of screen
 set ruler " Show current line and column number, and percentage in buffer
 set number " Show line numbers
 set wildmode=list:longest " Autocomplete file open
