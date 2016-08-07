@@ -16,6 +16,3 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-force"]
-	path = bundle/vim-force
-	url = https://github.com/neowit/vim-force.com.git
